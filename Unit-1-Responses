@@ -1,0 +1,33 @@
+// function isOdd (num) {
+//   if (num % 2 !== 0) {
+//     return true
+//   }else {
+//     return false
+//   }
+// }
+//
+//
+// function numberOfDigits (num) {
+//   num.split( )
+//   return num.length
+// }
+//
+//
+// console.log(numberOfDigits(33))
+//
+// function (arr){
+//   return arr.map(arr.location)
+// }
+//
+
+class Day {
+  constructor (temperature,weather) {
+    this.temperature = temperature
+    this.weather = weather
+  }
+   getDescription () {
+    return `It is ${this.temperature} and ${this.weather}`;
+  }
+}
+let myDay = new Day(80, "sunny")
+myDay.getDescription() // returns "It is 80 degrees and sunny"
